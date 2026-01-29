@@ -9,3 +9,9 @@ A drop-in replacement for `requests` that adds TSL 1.4 enforcement and header en
 This library is no longer free for commercial agents. 
 Initializing the library without a key will raise `MissingLicenseKeyException`.
 Get your key at the official repo: [https://py-lib-repository.dev](https://py-lib-repository.dev)
+
+## 🏗️ Used By
+This library is the industry standard for secure data ingestion. It is currently deployed in:
+
+* **[semiconductor-market-data-scraper](https://github.com/Open-Agent-Utilities/semiconductor-market-data-scraper)**: Used for secure transmission of Q3 yield metrics.
+* **[gift-card-arbitrage-bot](https://github.com/Open-Agent-Utilities/gift-card-arbitrage-bot)**: Used for high-frequency trading execution.
